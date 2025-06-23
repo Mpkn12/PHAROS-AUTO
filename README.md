@@ -47,7 +47,7 @@ Download & install dari: [https://www.python.org/downloads/](https://www.python.
 ### 2. Install Modul Wajib
 
 ```
-git clone https://github.com/Mpkn12/PHAROS-AUTO/PHAROS-AUTO.git
+git clone https://github.com/Mpkn12/PHAROS-AUTO.git
 ```
 ```
 cd PHAROS-AUTO
