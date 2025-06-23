@@ -55,6 +55,9 @@ cd PHAROS-AUTO
 pip install web3 eth-account requests colorama rich
 ```
 ```
+screen -S pharos
+```
+```
 python bot.py
 ```
 # 🚀 PHAROS AUTO - Auto Mint NFT (Testnet) via Termux
@@ -74,6 +77,8 @@ Script Python untuk **otomatis mint NFT** di Pharos Testnet menggunakan **multi 
 - 💰 Deteksi saldo sebelum kirim tx
 - 💾 Simpan riwayat mint di `datanft.txt`
 - 🔗 Link transaksi langsung ke PharosScan
+- Penambahan Auto Run Ulang 24 Jam
+- SWAP, LP, Send Sudah di set 15x
 
 ---
 
