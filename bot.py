@@ -291,13 +291,15 @@ def add_liquidity(w3, private_key, token0_address, token1_address, amount0, amou
 def main():
     tampil_banner()
     print(Fore.GREEN + "Bot Pharos dimulai...\n")
-    try:
-        jumlah_tx = int(input("Jumlah transaksi per wallet: "))
-        jumlah_swap = int(input("Jumlah swap per wallet: "))
-        jumlah_lp = int(input("Jumlah add LP per wallet: "))
-    except ValueError:
-        print("Masukkan angka yang valid.")
-        return
+    
+    jumlah_tx = 15
+    jumlah_swap = 15
+    jumlah_lp = 15
+
+    print(f"📦 Jumlah transaksi: {jumlah_tx}")
+    print(f"🔁 Jumlah swap: {jumlah_swap}")
+    print(f"💧 Jumlah LP: {jumlah_lp}")
+
 
     try:
         with open("privateKeys.txt", "r") as f:
@@ -401,4 +403,13 @@ def main():
         print("=" * 50)
 
 if __name__ == "__main__":
+    while True:
+        try:
+            main()
+            print(f"\n⏳ Menunggu 24 jam sebelum menjalankan ulang semua wallet...\n")
+            time.sleep(86400)  # 86400 detik = 24 jam
+        except Exception as e:
+            print(f"❌ Kesalahan dalam loop utama: {e}")
+            print("⏳ Coba ulang setelah 10 detik...")
+            time.sleep(10)
     main()
