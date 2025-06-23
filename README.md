@@ -16,6 +16,7 @@ Bot otomatis untuk menyelesaikan semua task Pharos Testnet — termasuk check-in
 | 💧 Auto Faucet      | Klaim token faucet testnet otomatis setiap wallet                      |
 | 🔄 Auto Swap        | Swap token menggunakan smart contract (real transaction)              |
 | 💸 Auto Transfer    | Kirim token ke wallet random                                           |
+| On 24 Jam            | Sudah Auto Berjalan 24 jam |
 | 🪙 Auto Staking     | Stake token otomatis ke smart contract staking                         |
 | 📊 Laporan Akun     | Menampilkan poin dan status wallet                                     |
 | 💡 Multi Wallet     | Bisa jalankan banyak wallet sekaligus                                  |
