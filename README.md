@@ -59,7 +59,7 @@ pip install web3 eth-account requests colorama rich
 screen -S pharos
 ```
 ```
-python bot.py
+python3 bot.py
 ```
 # 🚀 PHAROS AUTO - Auto Mint NFT (Testnet) via Termux
 
